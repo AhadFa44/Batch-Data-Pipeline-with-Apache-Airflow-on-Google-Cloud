@@ -27,7 +27,7 @@ The pipeline can be applied to various batch processing use cases such as:
 - Regular updates to analytics datasets from external sources.
 
 ## Architecture
-![Pipeline Architecture](Images/Architecture.png)
+![Pipeline Architecture](Images/Architecture.png) 
 
 - **Apache Airflow (via Cloud Composer):** Orchestrates all ETL tasks through DAGs.
 - **Google Cloud Storage (GCS):** Serves as the staging area for raw data files.
